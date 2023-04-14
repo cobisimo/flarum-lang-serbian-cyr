@@ -5,10 +5,10 @@
 blomstra-realtime:
   admin:
     permission:
-      view-who-types: 'Pogledaj ko kuca'
+      view-who-types: 'Погледај ко куца'
   forum:
     push:
-      discussion-list-new-activity: '{count, plural, one {Prikaži # ažuriranu diskusiju} other {Prikaži # ažurirane(ih) diskusija}}'
+      discussion-list-new-activity: '{count, plural, one {Прикажи # ажурирану дискусију} other {Прикажи # ажуриране(их) дискусија}}'
     typing-indicator:
-      no-activity: 'Niko ne kuca'
-      people-are-typing: '{number, plural, one {# osoba kuca} other {# osoba kucaju}}'
+      no-activity: 'Нико не куца'
+      people-are-typing: '{number, plural, one {# особа куца}other {# особа куцају}}'

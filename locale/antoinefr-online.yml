@@ -5,9 +5,9 @@
 antoinefr-online:
   admin:
     settings:
-      displaymax: 'Broj prikazanih članova'
-      titleoflist: 'Naslov koji će biti prikazan iznad liste'
+      displaymax: 'Број приказаних чланова'
+      titleoflist: 'Наслов који ће бити приказан изнад листе'
   forum:
-    andmore: 'i još {more}...'
-    online_users: '{više, plural, jedan {# član je dostupan} ostali {# članovi su dostupni}}'
-    title: 'Ko je dostupan?'
+    andmore: 'и још {more}...'
+    online_users: '{more, plural, one {# члан је доступан} other {# чланови су доступни}}'
+    title: 'Ко је доступан?'

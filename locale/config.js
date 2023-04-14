@@ -2,16 +2,16 @@
 
 const translator = {
   words: {
-    m: ['jedan minut', 'jednog minuta'],
-    mm: ['%d minut', '%d minuta', '%d minuta'],
-    h: ['jedan sat', 'jednog sata'],
-    hh: ['%d sat', '%d sata', '%d sati'],
-    d: ['jedan dan', 'jednog dana'],
-    dd: ['%d dan', '%d dana', '%d dana'],
-    M: ['jedan mesec', 'jednog meseca'],
-    MM: ['%d mesec', '%d meseca', '%d meseci'],
-    y: ['jednu godinu', 'jedne godine'],
-    yy: ['%d godinu', '%d godine', '%d godina']
+    m: ['један минут', 'једног минута'],
+    mm: ['%d минут', '%d минута', '%d минута'],
+    h: ['један сат', 'једног сата'],
+    hh: ['%d сат', '%d сата', '%d сати'],
+    d: ['један дан', 'једног дана'],
+    dd: ['%d дан', '%d дана', '%d дана'],
+    M: ['један месец', 'једног месеца'],
+    MM: ['%d месец', '%d месеца', '%d месеци'],
+    y: ['једну годину', 'једне године'],
+    yy: ['%d годину', '%d године', '%d година']
   },
   correctGrammarCase(number, wordKey) {
     if (number % 10 >= 1 && number % 10 <= 4 && (number % 100 < 10 || number % 100 >= 20)) {
@@ -24,13 +24,13 @@ const translator = {
 
     if (key.length === 1) {
       // Nominativ
-      if (key === 'y' && withoutSuffix) return 'jedna godina'
+      if (key === 'y' && withoutSuffix) return 'једна година'
       return isFuture || withoutSuffix ? wordKey[0] : wordKey[1]
     }
 
     const word = translator.correctGrammarCase(number, wordKey)
     // Nominativ
-    if (key === 'yy' && withoutSuffix && word === '%d godinu') return `${number} godina`
+    if (key === 'yy' && withoutSuffix && word === '%d годину') return `${number} година`
 
     return word.replace('%d', number)
   }
@@ -38,16 +38,16 @@ const translator = {
 
 dayjs.locale({
   name: 'sr',
-  weekdays: 'Nedelja_Ponedeljak_Utorak_Sreda_Četvrtak_Petak_Subota'.split('_'),
-  weekdaysShort: 'Ned._Pon._Uto._Sre._Čet._Pet._Sub.'.split('_'),
-  weekdaysMin: 'ne_po_ut_sr_če_pe_su'.split('_'),
-  months: 'Januar_Februar_Mart_April_Maj_Jun_Jul_Avgust_Septembar_Oktobar_Novembar_Decembar'.split('_'),
-  monthsShort: 'Jan._Feb._Mar._Apr._Maj_Jun_Jul_Avg._Sep._Okt._Nov._Dec.'.split('_'),
+  weekdays: ['Недеља', 'Понедељак', 'Уторак', 'Среда', 'Четвртак', 'Петак', 'Субота'],
+  weekdaysShort: ['Нед.', 'Пон.', 'Уто.', 'Сре.', 'Чет.', 'Пет.', 'Суб.'],
+  weekdaysMin: ['не', 'по', 'ут', 'ср', 'че', 'пе', 'су'],
+  months: ['Јануар', 'Фебруар', 'Март', 'Април', 'Мај', 'Јун', 'Јул', 'Август', 'Септембар', 'Октобар', 'Новембар', 'Децембар'],
+  monthsShort: ['Јан.', 'Феб.', 'Мар.', 'Апр.', 'Мај', 'Јун', 'Јул', 'Авг.', 'Сеп.', 'Окт.', 'Нов.', 'Дец.'],
   weekStart: 1,
   relativeTime: {
-    future: 'za %s',
-    past: 'pre %s',
-    s: 'nekoliko sekundi',
+    future: 'за %s',
+    past: 'пре %s',
+    s: 'неколико секунди',
     m: translator.relativeTimeFormatter,
     mm: translator.relativeTimeFormatter,
     h: translator.relativeTimeFormatter,

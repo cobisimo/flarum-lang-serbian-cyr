@@ -5,38 +5,38 @@
 flarum-flags:
   admin:
     permissions:
-      flag_posts_label: 'Prijavljivanje odgovora'
-      view_flags_label: 'Pregled prijavljenih odgovora'
+      flag_posts_label: 'Пријављивање одговора'
+      view_flags_label: 'Преглед пријављених одговора'
     settings:
-      flag_own_posts_label: 'Omogućite članovima da prijave vlastite odgovore'
-      guidelines_url_label: 'URL pravila zajednice'
-      title: 'Podešavanje prijava'
+      flag_own_posts_label: 'Омогућите члановима да пријаве властите одговоре'
+      guidelines_url_label: 'URL правила заједнице'
+      title: 'Подешавање пријава'
   forum:
     flag_post:
-      confirmation_message: 'Hvala Vam što ste prijavili ovaj odgovor. Naši moderatori će to istražiti.'
+      confirmation_message: 'Хвала Вам што сте пријавили овај одговор. Наши модератори ће то истражити.'
       dismiss_button: '=> core.ref.okay'
-      reason_details_placeholder: 'Dodatni detalji (opcionalno)'
-      reason_inappropriate_label: Neprikladno
-      reason_inappropriate_text: 'Ovaj odgovor je neprikladan, uvredljiv ili krši naša <a>pravila zajednice</a>.'
-      reason_missing_message: 'Navedite neke detalje za naše moderatore.'
-      reason_off_topic_label: 'Van teme'
-      reason_off_topic_text: 'Ovaj odgovor nije relevantan za trenutnu diskusiju i treba ga premestiti negde drugde.'
-      reason_other_label: 'Drugo (navesti)'
-      reason_spam_label: Nepoželjno
-      reason_spam_text: 'Ovaj odgovor je oglas.'
+      reason_details_placeholder: 'Додатни детаљи (опционално)'
+      reason_inappropriate_label: 'Неприкладно'
+      reason_inappropriate_text: 'Овај одговор је неприкладан, увредљив или крши наша <a>правила заједнице</a>.'
+      reason_missing_message: 'Наведите неке детаље за наше модераторе.'
+      reason_off_topic_label: 'Ван теме'
+      reason_off_topic_text: 'Овај одговор није релевантан за тренутну дискусију и треба га преместити негде другде.'
+      reason_other_label: 'Друго (навести)'
+      reason_spam_label: 'Непожељно'
+      reason_spam_text: 'Овај одговор је оглас.'
       submit_button: '=> flarum-flags.ref.flag_post'
       title: '=> flarum-flags.ref.flag_post'
     flagged_posts:
-      empty_text: 'Nema prijava'
-      item_text: '{username} u <em>{discussion}</em>'
+      empty_text: 'Нема пријава'
+      item_text: '{username} у <ем>{discussion}</ем>'
       title: '=> flarum-flags.ref.flagged_posts'
       tooltip: '=> flarum-flags.ref.flagged_posts'
     post:
-      dismiss_flag_button: 'Odbaci prijavu'
-      flagged_by_text: 'Prijavljeno od strane {username}'
-      flagged_by_with_reason_text: 'Prijavljeno od strane {username} kao {reason}'
+      dismiss_flag_button: 'Одбаци пријаву'
+      flagged_by_text: 'Пријављено од стране {username}'
+      flagged_by_with_reason_text: 'Пријављено од стране {username} као {reason}'
     post_controls:
-      flag_button: Prijavite
+      flag_button: 'Пријавите'
   ref:
-    flag_post: 'Prijavite odgovor'
-    flagged_posts: 'Prijavljeni odgovori'
+    flag_post: 'Пријавите одговор'
+    flagged_posts: 'Пријављени одговори'

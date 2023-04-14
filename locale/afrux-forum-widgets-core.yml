@@ -5,5 +5,5 @@
 afrux-forum-widgets-core:
   admin:
     settings:
-      prefer_data_with_initial_load: 'Radije učitati sve podatke WIDGETa sa početnim učitavanjem stranice.'
-      prefer_data_with_initial_load_help: 'Umesto učitavanja podataka WIDGETa nakon početnog učitavanja stranice tako što će biti poslat API zahtev, podaci će biti (kada je moguće) učitani sa početnim učitavanjem.'
+      prefer_data_with_initial_load: 'Радије учитати све податке WIDGET-а са почетним учитавањем странице.'
+      prefer_data_with_initial_load_help: 'Уместо учитавања података WIDGET-а након почетног учитавања странице тако што ће бити послат API захтев, подаци ће бити (када је могуће) учитани са почетним учитавањем.'

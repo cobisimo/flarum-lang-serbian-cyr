@@ -5,9 +5,9 @@
 askvortsov-help-tags:
   admin:
     permissions:
-      view_tag_label: 'Može da vidi kategorije'
+      view_tag_label: 'Може да види категорије'
   forum:
     badge:
-      show_to_all_tooltip: 'Ova diskusija je vidljiva svim korisnicima koji mogu da odgovaraju u svojim kategorijama.'
+      show_to_all_tooltip: 'Ова дискусија је видљива свим корисницима који могу да одговарају у својим категоријама.'
     discussion_controls:
-      show_to_all_button: 'Prikaži svima koji mogu da odgovaraju ovde.'
+      show_to_all_button: 'Прикажи свима који могу да одговарају овде.'

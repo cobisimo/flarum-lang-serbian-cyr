@@ -5,51 +5,51 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
-      delete_warnings: 'Trajno izbrišite upozorenja moderatora'
-      manage_warnings: 'Napravite i uklonite upozorenja moderatora'
-      view_warnings: 'Prikaži upozorenja moderatora'
+      delete_warnings: 'Трајно избришите упозорења модератора'
+      manage_warnings: 'Направите и уклоните упозорења модератора'
+      view_warnings: 'Прикажи упозорења модератора'
   emails:
     post_warned:
-      body: "Hey {warnee_display_name}!\n\n{warner_display_name} te je upozorio/la sa {strikes, plural, one {# upozorenjem} other {# upozerenjem}} u diskusiji {discussion_title}\n\nDat je sledeći razlog:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} te je upozorio/la sa {strikes, plural, one {# strike} other {# upozorenjem}} u diskusiji {discussion_title}'
+      body: 'Хеј {warnee_display_name}!\n\n{warner_display_name} те је упозорио/ла са {strikes, plural, one {# упозорењем} other {# upozerenјem}} у дискусији {discussion_title}\n\nДат је следећи разлог:\n\n---\n\n{public_comment}\n'
+      subject: '{warner_display_name} те је упозорио/ла са {strikes, plural, one {# strike} other {# упозорењем}} у дискусији {discussion_title}'
     user_warned:
-      body: "Hey {warnee_display_name}!\n\n{warner_display_name} te je upozorio/la sa {strikes, plural, one {# upozorenjem} other {# upozorenja}}\n\n>Dat je sledeći razlog:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} te je upozorio/la {strikes, plural, one {# upozorenjem} other {# upozorenja}}'
+      body: 'Хеј {warnee_display_name}!\n\n{warner_display_name} те је упозорио/ла са {strikes, plural, one {# упозорењем} other {# упозорења}}\n\n>Дат је следећи разлог:\n\n---\n\n{public_comment}\n'
+      subject: '{warner_display_name} те је упозорио/ла {strikes, plural, one {# упозорењем} other {# упозорења}}'
   forum:
     notifications:
-      warning_no_strikes_text: 'Upozoren/a si od strane {mod_username} (no strikes)'
-      warning_text: '{strikes, plural, one {Upozoren/a si sa # upozorenja od strane {mod_username}} other {Upozoren/a si sa # upozorenja od strane {mod_username}}}'
+      warning_no_strikes_text: 'Упозорен/а си од стране {mod_username} (прво упозорење)'
+      warning_text: '{strikes, plural, one {Упозорен/а си са # упозорења од стране {mod_username}} other {Упозорен/а си са # упозорења од стране {mod_username}}}'
     post:
-      warning: '{strikes, plural, one {Upozoren/a sa # upozorenja od strane {mod_username}} other {Upozoren/a sa # upozorenja od strane {mod_username}}}'
-      warning_no_strikes: 'Upozoren/a od strane {mod_username}'
+      warning: '{strikes, plural, one {Упозорен/а са # упозорења од стране {mod_username}} other {Упозорен/а са # упозорења од стране {mod_username}}}'
+      warning_no_strikes: 'Упозорен/а од стране {mod_username}'
     post_controls:
-      warning_button: 'Upozori člana'
+      warning_button: 'Упозори члана'
     settings:
-      warning_notification_label: 'Upozorava me moderator'
+      warning_notification_label: 'Упозорава ме модератор'
     user:
-      warnings: 'Upozorenja moderatora'
+      warnings: 'Упозорења модератора'
     validation:
-      invalid_strike_count: 'Broj upozorenja mora biti ceo broj (između 0 i 5).'
-      public_comment_required: 'Morate dati javni komentar.'
+      invalid_strike_count: 'Број упозорења мора бити цео број (између 0 и 5).'
+      public_comment_required: 'Морате дати јавни коментар.'
     warning_controls:
-      delete_button: Ukloni
-      delete_forever_button: 'Trajno ukloni'
-      restore_button: Povrati
+      delete_button: 'Уклони'
+      delete_forever_button: 'Трајно уклони'
+      restore_button: 'Поврати'
     warning_list:
-      add_button: 'Novo upozorenje'
-      no_warnings: 'Izgleda da ovde nema upozorenja.'
-      warnings: '{strikes, plural, one {Upozorenja moderatora: # upozorenje dobijeno} other {Upozorenja moderatora: # upozorenja dobijeno}}'
-      warnings_no_strikes: 'Upozorenja moderatora: Nema dobijenih upozorenja'
+      add_button: 'Ново упозорење'
+      no_warnings: 'Изгледа да овде нема упозорења.'
+      warnings: '{strikes, plural, one {Упозорења модератора: # упозорење добијено} other {Упозорења модератора: # упозорења добијено}}'
+      warnings_no_strikes: 'Упозорења модератора: Нема добијених упозорења'
     warning_list_item:
-      linked_post: 'Povezana diskusija'
-      list_item_heading: '{strikes, plural, one {<strong>#</strong> upozorenje, {time}} other {<strong>#</strong> upozorenja, {time}}}'
-      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> upozorenje, {time} <strong>(removed)</strong>} other {<strong>#</strong> upozorenja, {time} <strong>(uklonjeno)</strong>}}'
-      private_comment: 'Komentari vidljivi samo moderatorima'
-      public_comment: Upozorenje
+      linked_post: 'Повезана дискусија'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> упозорење, {time}} other {<strong>#</strong> упозорења, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> упозорење, {time} <strong>(уклоњено)</strong>} other {<strong>#</strong> упозорења, {time} <strong>(уклоњено)</strong>}}'
+      private_comment: 'Коментари видљиви само модераторима'
+      public_comment: 'Упозорење'
     warning_modal:
-      confirmation_message: 'Vaše upozorenje je sačuvano. Možda ćete morati da osvežite stranicu da biste ga videli.'
-      heading: 'Upozori <strong>{username}</strong>'
-      private_comment_heading: 'Zašto je <strong>{username}</strong> dobio/la ova upozorenja? Ovi komentari će biti vidljivi samo drugim moderatorima.'
-      public_comment_heading: 'Zašto je <strong>{username}</strong> dobio/la ova upozorenja? Ovi komentari će biti vidljivi članu i drugim moderatorima.'
-      strikes_heading: 'Koliko upozorenja treba poslati?'
-      submit_button: 'Sačuvaj upozorenje'
+      confirmation_message: 'Ваше упозорење је сачувано. Можда ћете морати да освежите страницу да бисте га видели.'
+      heading: 'Упозори <strong>{username}</strong>'
+      private_comment_heading: 'Зашто је <strong>{username}</strong> добио/ла ова упозорења? Ови коментари ће бити видљиви само другим модераторима.'
+      public_comment_heading: 'Зашто је <strong>{username}</strong> добио/ла ова упозорења? Ови коментари ће бити видљиви члану и другим модераторима.'
+      strikes_heading: 'Колико упозорења треба послати?'
+      submit_button: 'Сачувај упозорење'

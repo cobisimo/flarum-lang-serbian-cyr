@@ -5,6 +5,6 @@
 blomstra-readme:
   admin:
     modal:
-      no_readme: 'Čini se da ova ekstenzija nema PROČITAJME datoteku'
-      title: '{displayName} PROČITAJME'
-    readme_button_label: PROČITAJME
+      no_readme: 'Чини се да ова екстензија нема README датотеку'
+      title: '{displayName} README'
+    readme_button_label: 'README'

@@ -5,19 +5,19 @@
 flarum-likes:
   admin:
     permissions:
-      like_posts_label: 'Sviđanje odgovora'
+      like_posts_label: 'Свиђање одговора'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
-      post_liked_text: '{username} se svideo Vaš odgovor'
+      post_liked_text: '{username} се свидео Ваш одговор'
     post:
-      like_link: 'Sviđa mi se'
-      liked_by_self_text: '{users} ste označili da Vam se sviđa ovaj odgovor.'
-      liked_by_text: '{count, plural, one {{users} se sviđa ovaj odgovor.} other {{users} se sviđa ovaj odgovor.}}.'
+      like_link: 'Свиђа ми се'
+      liked_by_self_text: '{users} сте означили да Вам се свиђа овај одговор.'
+      liked_by_text: '{count, plural, оне {{users} се свиђа овај одговор.} other {{users} се свиђа овај одговор.}}.'
       others_link: '=> core.ref.some_others'
-      unlike_link: 'Ne sviđa mi se'
+      unlike_link: 'Не свиђа ми се'
       you_text: '=> core.ref.you'
     post_likes:
-      title: 'Članovi kojima se sviđa'
+      title: 'Чланови којима се свиђа'
     settings:
-      notify_post_liked_label: 'Ako se nekome svidi jedan od mojih odgovora'
+      notify_post_liked_label: 'Ако се некоме свиди један од мојих одговора'

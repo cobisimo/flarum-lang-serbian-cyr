@@ -1,24 +1,24 @@
 {
 	"name": "flarum/serbianlanguage",
 	"type": "flarum-extension",
-	"description": "Serbian language pack for Flarum.",
+	"description": "Serbian cyrillic language pack for Flarum.",
 	"keywords": [
 		"flarum",
 		"serbian",
+		"cyrillic",
 		"language"
 	],
 	"license": "MIT",
 	"homepage": "https://flarum.org",
 	"authors": [
 		{
-			"name": "Milan Bryant",
-			"email": "milansamp999@gmail.com"
+			"name": "Nikola Radovanovic",
+			"email": "cobisimo@gmail.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/bryantmilan/lang-serbian/issues",
-		"source": "https://github.com/bryantmilan/lang-serbian",
-		"forum:": "https://discuss.flarum.org/d/24125-serbian-language-pack"
+		"issues": "https://github.com/cobisimo/flarum-lang-serbian-cyr/issues",
+		"source": "https://github.com/cobisimo/flarum-lang-serbian-cyr",
 	},
 	"require": {
 		"flarum/core": "^1.2"
@@ -28,7 +28,7 @@
 			"dev-master": "1.x-dev"
 		},
 		"flarum-extension": {
-			"title": "Serbian",
+			"title": "Serbian (cyr)",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundColor": "#ffffff",
@@ -38,10 +38,7 @@
 		},
 		"flarum-locale": {
 			"code": "sr",
-			"title": "Srpski"
-		},
-		"extiverse": {
-			"discuss": "https://discuss.flarum.org/d/24125-serbian-language-pack"
+			"title": "Српски"
 		}
 	}
 }

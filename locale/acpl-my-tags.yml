@@ -5,8 +5,8 @@
 acpl-my-tags:
   admin:
     settings:
-      enable-placeholder: 'Omogućite placeholder tekst kada član ne prati nijednu kategoriju'
+      enable-placeholder: 'Омогућите placeholder текст када члан не прати ниједну категорију'
   forum:
     index:
-      my_tags: 'Moje kategorije'
-      placeholder: 'Ne pratite nijednu kategoriju. <a>Prikaži kategorije</a>'
+      my_tags: 'Моје категорије'
+      placeholder: 'Не пратите ниједну категорију. <a>Прикажи категорије</a>'

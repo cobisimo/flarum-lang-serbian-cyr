@@ -5,12 +5,12 @@
 flarum-statistics:
   admin:
     statistics:
-      active_users_text: '{count} aktivno'
+      active_users_text: '{count} активно'
       discussions_heading: '=> core.ref.discussions'
-      last_12_months_label: 'Poslednjih 12 meseci'
-      last_28_days_label: 'Poslednjih 28 dana'
-      last_7_days_label: 'Poslednjih 7 dana'
+      last_12_months_label: 'Последњих 12 месеци'
+      last_28_days_label: 'Последњих 28 дана'
+      last_7_days_label: 'Последњих 7 дана'
       posts_heading: '=> core.ref.posts'
-      today_label: Danas
-      total_label: Ukupno
+      today_label: 'Данас'
+      total_label: 'Укупно'
       users_heading: '=> core.ref.users'

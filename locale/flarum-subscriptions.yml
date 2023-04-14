@@ -5,36 +5,36 @@
 flarum-subscriptions:
   email:
     new_post:
-      body: "Zdravo {recipient_display_name}!\n\n{poster_display_name} je odgovorio/la u diskusiji koju pratite: {title}.\n\nDa pogledate novi odgovor, kliknite na sledeći link:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više dobijati obaveštenja o ovoj diskusiji dok ne ažurirate opcije praćenja.\n"
-      subject: 'Novi odgovor u diskusiji {title}'
+      body: 'Здраво {recipient_display_name}!\n\n{poster_display_name} је одговорио/ла у дискусији коју пратите: {title}.\n\nДа погледате нови одговор, кликните на следећи линк:\n{URL}\n\n---\n\n{content}\n\n---\n\nНећете више добијати обавештења о овој дискусији док не ажурирате опције праћења.\n'
+      subject: 'Нови одговор у дискусији {title}'
   forum:
     badge:
       following_tooltip: '=> flarum-subscriptions.ref.following'
       ignoring_tooltip: '=> flarum-subscriptions.ref.ignoring'
     discussion_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
-      unfollow_button: Utišajte
-      unignore_button: 'Prestanite ignorisati'
+      unfollow_button: 'Утишајте'
+      unignore_button: 'Престаните игнорисати'
     following:
       meta_title_text: '=> flarum-subscriptions.ref.following'
     index:
       following_link: '=> flarum-subscriptions.ref.following'
     notifications:
-      new_post_text: '{username} je odgovorio/la'
+      new_post_text: '{username} је одговорио/ла'
     settings:
-      follow_after_reply_label: 'Automatski zaprati diskusije u kojima odgovorim'
-      notify_new_post_label: 'Ako neko odgovori u diskusiji koju pratim'
+      follow_after_reply_label: 'Аутоматски запрати дискусије у којима одговорим'
+      notify_new_post_label: 'Ако неко одговори у дискусији коју пратим'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
-      following_text: 'Budite obavešteni o svim novim odgovorima.'
+      following_text: 'Будите обавештени о свим новим одговорима.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
-      ignoring_text: 'Nikad ne budite obavešteni. Sakriveno sa liste diskusija.'
-      not_following_button: Utišano
-      not_following_text: 'Budite obavešteni samo kada Vas neko spomene.'
-      notify_alert_tooltip: 'Primajte obaveštenja na forumu kada se pojave novi odgovori'
-      notify_email_tooltip: 'Primajte email obaveštenja kada se pojave novi odgovori'
+      ignoring_text: 'Никад не будите обавештени. Сакривено са листе дискусија.'
+      not_following_button: 'Утишано'
+      not_following_text: 'Будите обавештени само када Вас неко спомене.'
+      notify_alert_tooltip: 'Примајте обавештења на форуму када се појаве нови одговори'
+      notify_email_tooltip: 'Примајте емаил обавештења када се појаве нови одговори'
   ref:
-    follow: Zapratite
-    following: Omiljeno
-    ignoring: Ignorišete
+    follow: 'Запратите'
+    following: 'Омиљено'
+    ignoring: 'Игноришете'

@@ -5,15 +5,15 @@
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Označavanje diskusije važnom'
+      sticky_discussions_label: 'Означавање дискусије важном'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
     discussion_controls:
       sticky_button: '=> flarum-sticky.ref.sticky'
-      unsticky_button: 'Nevažna diskusija'
+      unsticky_button: 'Неважна дискусија'
     post_stream:
-      discussion_stickied_text: '{username} je označio/la diskusiju važnom.'
-      discussion_unstickied_text: '{username} je označio/la diskusiju nevažnom.'
+      discussion_stickied_text: '{username} је означио/ла дискусију важном.'
+      discussion_unstickied_text: '{username} је означио/ла дискусију неважном.'
   ref:
-    sticky: 'Važna diskusija'
+    sticky: 'Важна дискусија'

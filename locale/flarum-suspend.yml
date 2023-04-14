@@ -5,36 +5,36 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Suspendovanje članova'
+      suspend_users_label: 'Суспендовање чланова'
   email:
     suspended:
-      body: "Zdravo {recipient_display_name},\n\nSuspendovani ste iz sledećeg razloga:\n\n---\n{suspension_message}\n---\n"
-      subject: 'Vaš nalog na Grčkom Forumu je suspendovan'
+      body: 'Здраво {recipient_display_name},\n\nСуспендовани сте из следећег разлога:\n\n---\n{suspension_message}\n---\n'
+      subject: 'Ваш налог на Грчком Форуму је суспендован'
     unsuspended:
-      body: "Zdravo {recipient_display_name},\n\nZa vaš nalog na je ukinuta suspenzija. Možete se vratiti na forum klikom na sledeći link:\n\n{forum_url}\n"
-      subject: 'Za vaš nalog na Grčkom Forumu je ukinuta suspenzija'
+      body: 'Здраво {recipient_display_name},\n\nЗа ваш налог на је укинута суспензија. Можете се вратити на форум кликом на следећи линк:\n\n{forum_URL}\n'
+      subject: 'За ваш налог на Грчком Форуму је укинута суспензија'
   forum:
     notifications:
-      user_suspended_indefinite_text: 'Suspendovani ste na neodređeno vreme'
-      user_suspended_text: 'Suspendovani ste na {timeReadable}'
-      user_unsuspended_text: 'Ukinuta vam je suspenzija'
+      user_suspended_indefinite_text: 'Суспендовани сте на неодређено време'
+      user_suspended_text: 'Суспендовани сте на {timeReadable}'
+      user_unsuspended_text: 'Укинута вам је суспензија'
     suspend_user:
-      display_message: 'Prikaži poruku za korisnika'
-      indefinitely_label: 'Suspendovan/a na neodređeno'
-      limited_time_days_text: ' dana'
-      limited_time_label: 'Suspendovan/a na određeno vreme..'
-      not_suspended_label: 'Nije suspendovan/a'
-      placeholder_optional: Opcionalno
-      reason: 'Razlog za suspenziju'
-      status_heading: 'Status suspenzije'
+      display_message: 'Прикажи поруку за корисника'
+      indefinitely_label: 'Суспендован/а на неодређено'
+      limited_time_days_text: ' дана'
+      limited_time_label: 'Суспендован/а на одређено време..'
+      not_suspended_label: 'Није суспендован/а'
+      placeholder_optional: 'Опционално'
+      reason: 'Разлог за суспензију'
+      status_heading: 'Статус суспензије'
       submit_button: '=> core.ref.save_changes'
-      title: 'Suspenduj {username}'
+      title: 'Суспендуј {username}'
     suspension_info:
-      dismiss_button: Odbaci
-      indefinite: 'Ovo je suspenzija na neodređeno vreme'
-      limited: 'Ova suspenzija će biti na snazi do {date}'
-      title: 'Ovaj nalog je suspendovan'
+      dismiss_button: 'Одбаци'
+      indefinite: 'Ово је суспензија на неодређено време'
+      limited: 'Ова суспензија ће бити на снази до {date}'
+      title: 'Овај налог је суспендован'
     user_badge:
-      suspended_tooltip: Suspendovan/a
+      suspended_tooltip: 'Суспендован/а'
     user_controls:
-      suspend_button: Suspenduj
+      suspend_button: 'Суспендуј'

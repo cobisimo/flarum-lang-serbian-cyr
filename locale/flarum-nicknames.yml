@@ -5,18 +5,18 @@
 flarum-nicknames:
   admin:
     permissions:
-      edit_own_nickname_label: 'Izmenite sopstveni nadimak'
+      edit_own_nickname_label: 'Измените сопствени надимак'
     settings:
-      max_label: 'Maksimalna dužina nadimka'
-      min_label: 'Minimalna dužina nadimka'
-      random_username_help: 'Ovo će sakriti polje "Korisničko ime" za odabir prilikom registracije i umesto toga koristiti nasumični broj. Takođe će polje "Nadimak" učiniti obaveznim. Ovo će stupiti na snagu samo ako je omogućeno "Dozvolite postavljanje nadimaka pri registraciji".'
-      random_username_label: 'Nasumično korisničko ime'
-      regex_label: 'Regularni izraz za validaciju'
-      set_on_registration_label: 'Dozvolite postavljanje nadimaka pri registraciji'
-      unique_label: 'Zahtevaj jedinstvene nadimke'
-    wrong_driver: 'Morate da izaberete "nadimak" kao ime za prikaz na <a><strong>stranici sa osnovnim podešavanjima</strong></a> da bi ova ekstenzija radila kako treba.'
+      max_label: 'Максимална дужина надимка'
+      min_label: 'Минимална дужина надимка'
+      random_username_help: 'Ово ће сакрити поље "Корисничко име" за одабир приликом регистрације и уместо тога користити насумични број. Такође ће поље "Надимак" учинити обавезним. Ово ће ступити на снагу само ако је омогућено "Дозволите постављање надимака при регистрацији".'
+      random_username_label: 'Насумично корисничко име'
+      regex_label: 'Регуларни израз за валидацију'
+      set_on_registration_label: 'Дозволите постављање надимака при регистрацији'
+      unique_label: 'Захтевај јединствене надимке'
+    wrong_driver: 'Морате да изаберете "надимак" као име за приказ на <a><strong>страници са основним подешавањима</strong></a> да би ова екстензија радила како треба.'
   api:
-    invalid_nickname_message: 'Ovaj nadimak je nevažeći. Molimo kontaktirajte administratora foruma za više informacija o pravilima za nadimke.'
+    invalid_nickname_message: 'Овај надимак је неважећи. Молимо контактирајте администратора форума за више информација о правилима за надимке.'
   forum:
     change_nickname:
       submit_button: '=> core.ref.save_changes'
@@ -29,5 +29,5 @@ flarum-nicknames:
     sign_up:
       nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
-    change_nickname: 'Promeni nadimak'
-    nickname: Nadimak
+    change_nickname: 'Промени надимак'
+    nickname: 'Надимак'

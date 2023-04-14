@@ -5,6 +5,6 @@
 afrux-news-widget:
   admin:
     settings:
-      add_line: 'Dodaj red za novosti'
-      html_warning: 'Budite pažljivi, bilo koji HTML kod će biti prikazan.'
-      lines: 'Redovi novosti'
+      add_line: 'Додај ред за новости'
+      html_warning: 'Будите пажљиви, било који HTML код ће бити приказан.'
+      lines: 'Редови новости'

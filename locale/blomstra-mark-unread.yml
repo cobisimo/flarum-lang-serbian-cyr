@@ -5,7 +5,7 @@
 blomstra-mark-unread:
   admin:
     permissions:
-      mark-unread: 'Označi diskusiju kao nepročitanu'
+      mark-unread: 'Означи дискусију као непрочитану'
   forum:
     controls:
-      mark-unread: 'Označi kao nepročitano'
+      mark-unread: 'Означи као непрочитано'

@@ -5,17 +5,17 @@
 flarum-lock:
   admin:
     permissions:
-      lock_discussions_label: 'Zaključavanje diskusija'
+      lock_discussions_label: 'Закључавање дискусија'
   forum:
     badge:
-      locked_tooltip: Zaključano
+      locked_tooltip: 'Закључано'
     discussion_controls:
-      lock_button: Zaključajte
-      unlock_button: Otključajte
+      lock_button: 'Закључајте'
+      unlock_button: 'Откључајте'
     notifications:
-      discussion_locked_text: '{username} je zaključao/la diskusiju'
+      discussion_locked_text: '{username} је закључао/ла дискусију'
     post_stream:
-      discussion_locked_text: '{username} je zaključao/la diskusiju.'
-      discussion_unlocked_text: '{username} je otključao/la diskusiju.'
+      discussion_locked_text: '{username} је закључао/ла дискусију.'
+      discussion_unlocked_text: '{username} је откључао/ла дискусију.'
     settings:
-      notify_discussion_locked_label: 'Ako neko zaključa diskusiju koju sam započeo'
+      notify_discussion_locked_label: 'Ако неко закључа дискусију коју сам започео'

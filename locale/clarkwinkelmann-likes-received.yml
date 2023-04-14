@@ -5,7 +5,7 @@
 clarkwinkelmann-likes-received:
   admin:
     permission:
-      view: 'Pogledaj dobijena sviđanja'
+      view: 'Погледај добијена свиђања'
   forum:
     user-card:
-      likes: '{likes, plural, one {# sviđanja(e)} other {# sviđanja}}'
+      likes: '{likes, plural, one {# свиђањe} other {# свиђања}}'

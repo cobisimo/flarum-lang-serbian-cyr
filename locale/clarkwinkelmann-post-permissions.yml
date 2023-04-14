@@ -5,5 +5,5 @@
 clarkwinkelmann-post-permissions:
   admin:
     permissions:
-      edit-first-own-post-forever: 'Zauvek uređuje prvi odgovor u svojim diskusijama'
-      edit-own-post-forever: 'Zauvek uređuje sve svoje odgovore'
+      edit-first-own-post-forever: 'Заувек уређује први одговор у својим дискусијама'
+      edit-own-post-forever: 'Заувек уређује све своје одговоре'
