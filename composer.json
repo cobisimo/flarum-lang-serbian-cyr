@@ -1,5 +1,5 @@
 {
-	"name": "ing.rs/flarum-serbian-cyr-language",
+	"name": "cobisimo/flarum-lang-serbian-cyr",
 	"type": "flarum-extension",
 	"description": "Serbian cyrillic language pack for Flarum.",
 	"keywords": [
