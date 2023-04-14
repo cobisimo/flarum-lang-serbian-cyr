@@ -1,5 +1,5 @@
 {
-	"name": "flarum/serbiancyrlanguage",
+	"name": "ing/flarum-serbian-cyr-language",
 	"type": "flarum-extension",
 	"description": "Serbian cyrillic language pack for Flarum.",
 	"keywords": [
@@ -9,7 +9,7 @@
 		"language"
 	],
 	"license": "MIT",
-	"homepage": "https://flarum.org",
+	"homepage": "https://ing.rs",
 	"authors": [
 		{
 			"name": "Nikola Radovanovic",
