@@ -1,5 +1,5 @@
 {
-	"name": "flarum/serbianlanguage",
+	"name": "flarum/serbiancyrlanguage",
 	"type": "flarum-extension",
 	"description": "Serbian cyrillic language pack for Flarum.",
 	"keywords": [
@@ -18,7 +18,7 @@
 	],
 	"support": {
 		"issues": "https://github.com/cobisimo/flarum-lang-serbian-cyr/issues",
-		"source": "https://github.com/cobisimo/flarum-lang-serbian-cyr",
+		"source": "https://github.com/cobisimo/flarum-lang-serbian-cyr"
 	},
 	"require": {
 		"flarum/core": "^1.2"
